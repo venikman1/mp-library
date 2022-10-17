@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    std::cout << ip_address << ":" << port << (is_server ? " server" : "") <<std::endl;
+    std::cout << ip_address << ":" << port << (is_server ? " server" : " client") <<std::endl;
     fox::test_save();
     return 0;
 }
